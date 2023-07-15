@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- EMMA v2.0.5312 report, generated Sat Jul 15 08:58:37 UTC 2023 -->
+
+<report>
+  <stats>
+    <packages value="2"/>
+    <classes value="9"/>
+    <methods value="26"/>
+    <srcfiles value="8"/>
+    <srclines value="214"/>
+  </stats>
+  <data>
+    <all name="all classes">
+      <coverage type="class, %" value="44%  (4/9)"/>
+      <coverage type="method, %" value="23%  (6/26)"/>
+      <coverage type="block, %" value="3%   (33/1091)"/>
+      <coverage type="line, %" value="6%   (12/214)"/>
+
+      <package name="Randoop">
+        <coverage type="class, %" value="100% (3/3)"/>
+        <coverage type="method, %" value="33%  (3/9)"/>
+        <coverage type="block, %" value="1%   (9/720)"/>
+        <coverage type="line, %" value="2%   (3/127)"/>
+
+        <srcfile name="Service.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="20%  (1/5)"/>
+          <coverage type="block, %" value="1%   (3/491)"/>
+          <coverage type="line, %" value="1%   (1/88)"/>
+
+          <class name="Service">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="20%  (1/5)"/>
+            <coverage type="block, %" value="1%   (3/491)"/>
+            <coverage type="line, %" value="1%   (1/88)"/>
+
+            <method name="clearFolder (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/12)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="clearSubfolders (File): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/37)"/>
+              <coverage type="line, %" value="0%   (0/10)"/>
+            </method>
+            <method name="deleteFolder (File): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/44)"/>
+              <coverage type="line, %" value="0%   (0/10)"/>
+            </method>
+            <method name="main (String []): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/395)"/>
+              <coverage type="line, %" value="0%   (0/63)"/>
+            </method>
+            <method name="Service (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="RunRandoop.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="50%  (1/2)"/>
+          <coverage type="block, %" value="2%   (3/181)"/>
+          <coverage type="line, %" value="4%   (1/27)"/>
+
+          <class name="RunRandoop">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="block, %" value="2%   (3/181)"/>
+            <coverage type="line, %" value="4%   (1/27)"/>
+
+            <method name="Run (File, int, int, int): String []">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/178)"/>
+              <coverage type="line, %" value="0%   (0/26)"/>
+            </method>
+            <method name="RunRandoop (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="Coverage_Emma.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="50%  (1/2)"/>
+          <coverage type="block, %" value="6%   (3/48)"/>
+          <coverage type="line, %" value="8%   (1/12)"/>
+
+          <class name="Coverage_Emma">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="50%  (1/2)"/>
+            <coverage type="block, %" value="6%   (3/48)"/>
+            <coverage type="line, %" value="8%   (1/12)"/>
+
+            <method name="LineCoverage (String): int">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/45)"/>
+              <coverage type="line, %" value="0%   (0/11)"/>
+            </method>
+            <method name="Coverage_Emma (): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (3/3)"/>
+              <coverage type="line, %" value="100% (1/1)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+      <package name="org.eclipse.jdt.internal.jarinjarloader">
+        <coverage type="class, %" value="17%  (1/6)"/>
+        <coverage type="method, %" value="18%  (3/17)"/>
+        <coverage type="block, %" value="6%   (24/371)"/>
+        <coverage type="line, %" value="10%  (9/87)"/>
+
+        <srcfile name="JIJConstants.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/1)"/>
+          <coverage type="block, %" value="0%   (0/3)"/>
+          <coverage type="line, %" value="0%   (0/2)"/>
+
+          <class name="JIJConstants">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/1)"/>
+            <coverage type="block, %" value="0%   (0/3)"/>
+            <coverage type="line, %" value="0%   (0/2)"/>
+
+            <method name="JIJConstants (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/2)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="JarRsrcLoader.java">
+          <coverage type="class, %" value="0%   (0/2)"/>
+          <coverage type="method, %" value="0%   (0/7)"/>
+          <coverage type="block, %" value="0%   (0/233)"/>
+          <coverage type="line, %" value="0%   (0/51)"/>
+
+          <class name="JarRsrcLoader">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/5)"/>
+            <coverage type="block, %" value="0%   (0/227)"/>
+            <coverage type="line, %" value="0%   (0/50)"/>
+
+            <method name="JarRsrcLoader (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getManifestInfo (): JarRsrcLoader$ManifestInfo">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/64)"/>
+              <coverage type="line, %" value="0%   (0/18)"/>
+            </method>
+            <method name="getParentClassLoader (): ClassLoader">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/14)"/>
+              <coverage type="line, %" value="0%   (0/4)"/>
+            </method>
+            <method name="main (String []): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/99)"/>
+              <coverage type="line, %" value="0%   (0/15)"/>
+            </method>
+            <method name="splitSpaces (String): String []">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/47)"/>
+              <coverage type="line, %" value="0%   (0/12)"/>
+            </method>
+          </class>
+          <class name="JarRsrcLoader$ManifestInfo">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/2)"/>
+            <coverage type="block, %" value="0%   (0/6)"/>
+            <coverage type="line, %" value="0%   (0/1)"/>
+
+            <method name="JarRsrcLoader$ManifestInfo (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="JarRsrcLoader$ManifestInfo (JarRsrcLoader$ManifestInfo): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/3)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="RsrcURLConnection.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/3)"/>
+          <coverage type="block, %" value="0%   (0/37)"/>
+          <coverage type="line, %" value="0%   (0/9)"/>
+
+          <class name="RsrcURLConnection">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/37)"/>
+            <coverage type="line, %" value="0%   (0/9)"/>
+
+            <method name="RsrcURLConnection (URL, ClassLoader): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="connect (): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/1)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="getInputStream (): InputStream">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/29)"/>
+              <coverage type="line, %" value="0%   (0/5)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="RsrcURLStreamHandler.java">
+          <coverage type="class, %" value="0%   (0/1)"/>
+          <coverage type="method, %" value="0%   (0/3)"/>
+          <coverage type="block, %" value="0%   (0/68)"/>
+          <coverage type="line, %" value="0%   (0/15)"/>
+
+          <class name="RsrcURLStreamHandler">
+            <coverage type="class, %" value="0%   (0/1)"/>
+            <coverage type="method, %" value="0%   (0/3)"/>
+            <coverage type="block, %" value="0%   (0/68)"/>
+            <coverage type="line, %" value="0%   (0/15)"/>
+
+            <method name="RsrcURLStreamHandler (ClassLoader): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/6)"/>
+              <coverage type="line, %" value="0%   (0/3)"/>
+            </method>
+            <method name="openConnection (URL): URLConnection">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/7)"/>
+              <coverage type="line, %" value="0%   (0/1)"/>
+            </method>
+            <method name="parseURL (URL, String, int, int): void">
+              <coverage type="method, %" value="0%   (0/1)"/>
+              <coverage type="block, %" value="0%   (0/55)"/>
+              <coverage type="line, %" value="0%   (0/11)"/>
+            </method>
+          </class>
+        </srcfile>
+        <srcfile name="RsrcURLStreamHandlerFactory.java">
+          <coverage type="class, %" value="100% (1/1)"/>
+          <coverage type="method, %" value="100% (3/3)"/>
+          <coverage type="block, %" value="80%  (24/30)"/>
+          <coverage type="line, %" value="90%  (9/10)"/>
+
+          <class name="RsrcURLStreamHandlerFactory">
+            <coverage type="class, %" value="100% (1/1)"/>
+            <coverage type="method, %" value="100% (3/3)"/>
+            <coverage type="block, %" value="80%  (24/30)"/>
+            <coverage type="line, %" value="90%  (9/10)"/>
+
+            <method name="createURLStreamHandler (String): URLStreamHandler">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="70%  (14/20)"/>
+              <coverage type="line, %" value="80%  (4/5)"/>
+            </method>
+            <method name="RsrcURLStreamHandlerFactory (ClassLoader): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (6/6)"/>
+              <coverage type="line, %" value="100% (3/3)"/>
+            </method>
+            <method name="setURLStreamHandlerFactory (URLStreamHandlerFactory): void">
+              <coverage type="method, %" value="100% (1/1)"/>
+              <coverage type="block, %" value="100% (4/4)"/>
+              <coverage type="line, %" value="100% (2/2)"/>
+            </method>
+          </class>
+        </srcfile>
+      </package>
+    </all>
+  </data>
+</report>
