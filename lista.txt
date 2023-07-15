@@ -1,4 +1,4 @@
-org.eclipse.jdt.internal.jarinjarloader.RsrcURLStreamHandlerFactory.class
-Randoop.Coverage_Emma.class
-Randoop.Service.class
-Randoop.RunRandoop.class
+org.eclipse.jdt.internal.jarinjarloader.RsrcURLStreamHandlerFactory
+Randoop.Coverage_Emma
+Randoop.Service
+Randoop.RunRandoop
