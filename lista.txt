@@ -1,3 +1,9 @@
+org.eclipse.jdt.internal.jarinjarloader.JIJConstants
+org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader$ManifestInfo
+org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader
+org.eclipse.jdt.internal.jarinjarloader.RsrcURLConnection
+org.eclipse.jdt.internal.jarinjarloader.RsrcURLStreamHandler
+org.eclipse.jdt.internal.jarinjarloader.RsrcURLStreamHandlerFactory
 Main
 interfaces.ISubject
 interfaces.IObserver
